@@ -1,0 +1,36 @@
+
+
+.timeline_item {
+    position: relative;
+    padding-left: 3rem;
+    border-left: 0.1rem solid #0092cc;
+}
+
+
+.tl_duration {
+    padding: 0.2rem 0.6rem;
+    background-color: #2a2e35;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.timeline_item h5 {
+    padding: 1.8rem 0;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+}
+
+.timeline_item h5 span {
+    color: #454e56;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.timeline_item p {
+    color: #b2becd;
+    font-size: medium;
+}
