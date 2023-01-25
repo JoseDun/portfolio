@@ -18,6 +18,10 @@ const NAV__LINK = [
     display: "About",
   },
   {
+    path: "#Certifications",
+    display: "Certifications",
+  },
+  {
     path: "#contact",
     display: "Contact",
   },

@@ -24,9 +24,13 @@ const Hero = () => {
               <h5 className="mb-4">Frontend Developer</h5>
 
               <p>
-                Experience working on web applications remotely for clients in
-                Colombia using the scrum methodology for more than a year with
-                React and more recently React Native.
+                +1 year experience working on web applications remotely for
+                clients in Colombia using the scrum methodology with React and
+                React Native.
+                <br />
+                During this time, I have honed my skills in Agile development,
+                effective communication, and problem-solving to deliver
+                high-quality projects on time
               </p>
             </div>
 
@@ -42,7 +46,14 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+              <Image
+                alt="hero-image"
+                src={heroImg}
+                width="400"
+                height="400"
+                priority={true}
+                placeholder="blur"
+              />
               <h5 className="mt-3 mb-3">Telecommunication engineer</h5>
             </div>
           </Col>

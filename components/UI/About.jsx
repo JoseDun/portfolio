@@ -16,11 +16,12 @@ const About = () => {
             <h3 className="mt-4">Experiences,</h3>
             <h3 className="mb-4">and a little more about me.</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              I&apos;m Jose Dun, I&apos;m 27 years old. <br /> I have +1 year of
+              experience as a frontend developer.
+              <br /> I&apos;ve been interested in technology since my childhood
+              and I studied telecommunications engineering but my passion for
+              programming grew over time, leading me to transition to software
+              development.
             </p>
 
             <div className="d-flex align-items-center gap-5">

@@ -4,6 +4,9 @@ import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const NAV__LINK = [
   {
     path: "/",
@@ -16,6 +19,10 @@ const NAV__LINK = [
   {
     path: "#about",
     display: "About",
+  },
+  {
+    path: "#Certifications",
+    display: "Certifications",
   },
   {
     path: "#contact",
@@ -50,6 +57,16 @@ const Header = () => {
 
   return (
     <header className={`${classes.header}`} ref={headerRef}>
+      <ToastContainer
+        position="top-right"
+        autoClose={800}
+        hideProgressBar={true}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        draggable
+        className="toast-transparent"
+      />
       <Container>
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}

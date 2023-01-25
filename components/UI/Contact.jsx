@@ -14,9 +14,12 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+              Get in touch with me to discuss your job opening and how my skills
+              and experience align with your company&apos;s needs. I am excited
+              to learn more about the opportunity and how I can contribute to
+              your team&apos;s success. Please feel free to contact me via email
+              or phone to schedule an interview. Thank you for considering me
+              for this position.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
