@@ -35,7 +35,6 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          {/* ========= footer top =========== */}
           <Col lg="6" className={`${classes.footer__top}`}>
             <div className={`${classes.nav__menu}`}>
               {NAV__LINK.map((item, index) => (
@@ -46,7 +45,6 @@ const Footer = () => {
             </div>
           </Col>
 
-          {/* ========= footer bottom ========= */}
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>&copy; Copyright {year} - Developed by José Dun.</p>

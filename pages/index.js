@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Hero from "../components/UI/Hero";
 import About from "../components/UI/About";
 import Portfolio from "../components/UI/Portfolio";
@@ -12,13 +11,11 @@ export default function Home() {
       <Head>
         <title>José Dun</title>
       </Head>
-      <Fragment>
-        <Hero />
-        <Portfolio />
-        <About />
-        <Certifications />
-        <Contact />
-      </Fragment>
+      <Hero />
+      <Portfolio />
+      <About />
+      <Certifications />
+      <Contact />
     </>
   );
 }
