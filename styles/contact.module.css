@@ -11,17 +11,35 @@ justify-content: center;
 width: 50px;
 height: 50px;
 border-radius: 50%;
+
+}
+.contact_icon a {
+text-decoration: none;
+background-color: #0e1630;
+color: #ffffff;
 }
 
-.contact_icon:hover i{
+.contact_icon:hover a{
   background-color: #ffffff;
-  color:#0e1630
-  
+  color: #0e1630;
+
 }
 
-.contact_icon:hover{
-  background-color: #ffffff
+.contact_icon:hover {
+  background-color: #ffffff;
+  color: #0e1630;
+
 }
+.contact_icon a i {
+  background-color: inherit;
+
+}
+.contact_icon a i:hover {
+  background-color: inherit;
+  color: #0e1630;
+
+}
+
 
 .contact__info__list {
   list-style: none;

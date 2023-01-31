@@ -1,20 +1,20 @@
 const portfolio = [
   {
-    id: "06",
-    title: "Travel  App",
-    img: "/images/portfolio-06.jpg",
+    id: "01",
+    title: "Wallet App",
+    img: "/images/app.jpg",
     category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    keyword: ["react native", "expo", "tailwindcss", "react query", "axios"],
+    liveUrl: "https://github.com/JoseDun/app-wallet",
   },
 
   {
-    id: "07",
-    title: "Portfolio Website",
-    img: "/images/portfolio-07.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
+    id: "02",
+    title: "Back office",
+    img: "/images/wallet.jpeg",
+    category: "Web",
+    keyword: ["react", "react query", "axios", "bootstrap", "mui"],
+    liveUrl: "https://github.com/JoseDun/wallet-back-office",
   },
 ];
 

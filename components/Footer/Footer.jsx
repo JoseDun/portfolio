@@ -1,8 +1,9 @@
 import React from "react";
 
-import { Container, Row, Col } from "reactstrap";
-import classes from "./footer.module.css";
 import Link from "next/link";
+import { Container, Row, Col } from "reactstrap";
+
+import classes from "../../styles/footer.module.css";
 
 const NAV__LINK = [
   {

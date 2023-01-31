@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
+
 import classes from "../../styles/contact.module.css";
+
 import Form from "./Form";
 
 const Contact = () => {
@@ -45,17 +47,18 @@ const Contact = () => {
 
             <div className={`${classes.social__links}`}>
               <div className={`${classes.contact_icon}`}>
-                <Link href="https://github.com/JoseDun" target="_blank">
-                  <i className="ri-github-line"></i>
+                <Link href="https://github.com/JoseDun">
+                  <a target="_blank">
+                    <i className="ri-github-line" />
+                  </a>
                 </Link>
               </div>
 
               <div className={`${classes.contact_icon}`}>
-                <Link
-                  href="https://www.linkedin.com/in/josedunsh/"
-                  target="_blank"
-                >
-                  <i className="ri-linkedin-line"></i>
+                <Link href="https://www.linkedin.com/in/josedunsh/">
+                  <a target="_blank">
+                    <i className="ri-linkedin-line" />
+                  </a>
                 </Link>
               </div>
             </div>

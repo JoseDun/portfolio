@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 
-import { Container } from "reactstrap";
-import classes from "./header.module.css";
 import Link from "next/link";
-
+import { Container } from "reactstrap";
 import { ToastContainer } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
+import classes from "../../styles/header.module.css";
 
 const NAV__LINK = [
   {
@@ -69,14 +69,12 @@ const Header = () => {
       />
       <Container>
         <div className={`${classes.nav__wrapper}`}>
-          {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
               <span>JD</span>
             </h1>
           </div>
 
-          {/* ========= nav menu =========== */}
           <div
             className={`${classes.navigation}`}
             ref={menuRef}
