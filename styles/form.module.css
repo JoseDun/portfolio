@@ -10,6 +10,11 @@
   margin-bottom: 20px;
 }
 
+.form__group input:hover,
+.form__group textarea:hover{
+  border: 0.1rem solid #0092cc;
+}
+
 .form__group input::placeholder,
 .form__group textarea::placeholder {
   font-size: 0.8rem;
