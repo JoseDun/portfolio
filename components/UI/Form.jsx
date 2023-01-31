@@ -14,10 +14,10 @@ const Form = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.customSERVICE,
-        process.env.customTEMPLATE,
+        process.env.NEXT_PUBLIC_SERVICE,
+        process.env.NEXT_PUBLIC_TEMPLATE,
         form.current,
-        process.env.customKey
+        process.env.NEXT_PUBLIC_API
       )
       .then(
         (result) => {
