@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
@@ -10,6 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }

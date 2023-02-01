@@ -14,8 +14,6 @@ const Hero = () => {
     <section className={`${classes.hero}`}>
       <Container>
         <Row>
-          {/* ========== hero content ============= */}
-
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Welcome" />
@@ -25,12 +23,12 @@ const Hero = () => {
 
               <p>
                 +1 year experience working on web applications remotely for
-                clients in Colombia using the scrum methodology with React and
-                React Native.
+                clients in Colombia using the Scrum methodology with React,
+                React Native, and Next.
                 <br />
                 During this time, I have honed my skills in Agile development,
                 effective communication, and problem-solving to deliver
-                high-quality projects on time
+                high-quality projects on time.
               </p>
             </div>
 
@@ -43,7 +41,6 @@ const Hero = () => {
             </div>
           </Col>
 
-          {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
               <Image
