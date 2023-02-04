@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Certs = ({ img }) => {
   return (
-    <div className="d-flex justify-content-center">
+    <article className="d-flex justify-content-center">
       <Image
         alt="client-img"
         src={img}
@@ -12,7 +12,7 @@ const Certs = ({ img }) => {
         className="rounded-2"
         objectFit="contain"
       />
-    </div>
+    </article>
   );
 };
 

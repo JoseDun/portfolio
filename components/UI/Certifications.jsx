@@ -1,14 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
-import SectionSubtitle from "./SectionSubtitle";
-
 import Slider from "react-slick";
 
+import SectionSubtitle from "./SectionSubtitle";
 import Certs from "./Certs";
-import { certsData } from "../data/certs";
 
-const Certifications = () => {
+const Certifications = ({ data }) => {
   const settings = {
     dots: false,
     autoplay: true,
@@ -28,7 +25,7 @@ const Certifications = () => {
             <SectionSubtitle subtitle="Certifications" />
 
             <Slider {...settings}>
-              {certsData.map(({ img, id }) => (
+              {data.map(({ img, id }) => (
                 <Certs img={img} key={id} />
               ))}
             </Slider>

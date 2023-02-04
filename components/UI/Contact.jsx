@@ -41,14 +41,14 @@ const Contact = () => {
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+598 94 143 080</p>
+                <p>+598 94 143 080 | +58 412 45 27 328</p>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
               <div className={`${classes.contact_icon}`}>
                 <Link href="https://github.com/JoseDun">
-                  <a target="_blank">
+                  <a target="_blank" aria-label="link to github">
                     <i className="ri-github-line" />
                   </a>
                 </Link>
@@ -56,7 +56,7 @@ const Contact = () => {
 
               <div className={`${classes.contact_icon}`}>
                 <Link href="https://www.linkedin.com/in/josedunsh/">
-                  <a target="_blank">
+                  <a target="_blank" aria-label="link to linkedin">
                     <i className="ri-linkedin-line" />
                   </a>
                 </Link>

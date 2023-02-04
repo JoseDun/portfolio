@@ -13,12 +13,16 @@
   background: transparent;
 }
 
-.portfolio__box{
+.portfolio__box {
   flex-wrap: wrap;
-  display: flex;
   justify-content: center;
   background-color: transparent;
   gap: 5px;
+  display: none;
+  transition: all 0.4s ease-in;
+}
+.portfolio__item:hover .portfolio__box {
+  display: flex;
 }
 
 .portfolio__img {

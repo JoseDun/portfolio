@@ -84,4 +84,12 @@ export const certsData = [
     id: "21",
     img: "/images/certs/Diploma-fcc-ResponsiveDesign.jpeg",
   },
+  {
+    id: "22",
+    img: "/images/certs/diploma-react-typescript_page-0001.jpg",
+  },
 ];
+
+export const getCertsData = () => {
+  return certsData;
+};

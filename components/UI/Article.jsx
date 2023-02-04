@@ -17,7 +17,7 @@ const Article = ({ title, company, text, initialYear, endYear }) => {
         <span> {company}</span>
       </h5>
 
-      {textLines.map((line, index) => (
+      {textLines?.map((line, index) => (
         <p key={index}>{line}</p>
       ))}
     </article>

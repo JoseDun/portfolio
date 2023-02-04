@@ -8,6 +8,7 @@
   padding: 15px 20px;
   border-radius: 5px;
   margin-bottom: 20px;
+  resize:none;
 }
 
 .form__group input:hover,

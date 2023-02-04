@@ -4,10 +4,12 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 
-import heroImg from "../../public/images/profile.png";
+import heroImg from "../../public/images/profile.jpg";
 import classes from "../../styles/hero.module.css";
+import classesContact from "../../styles/contact.module.css";
 
 import ServicesItem from "./ServicesItem";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -15,34 +17,50 @@ const Hero = () => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className={`${classes.hero__content}`}>
-              <SectionSubtitle subtitle="Welcome" />
+            <aside className={`${classes.hero__content}`}>
+              <div>
+                <SectionSubtitle subtitle="Welcome" />
+                <div className={`${classesContact.social__links}`}>
+                  <div className={`${classesContact.contact_icon}`}>
+                    <Link href="https://github.com/JoseDun">
+                      <a target="_blank" aria-label="link to github">
+                        <i className="ri-github-line" />
+                      </a>
+                    </Link>
+                  </div>
 
-              <h2 className="mt-3 mb-3">I&apos;m José Dun</h2>
+                  <div className={`${classesContact.contact_icon}`}>
+                    <Link href="https://www.linkedin.com/in/josedunsh/">
+                      <a target="_blank" aria-label="link to linkedin">
+                        <i className="ri-linkedin-line" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <h1 className="mt-3 mb-3">I&apos;m José Dun</h1>
               <h5 className="mb-4">Frontend Developer</h5>
 
               <p>
-                +1 year experience working on web applications remotely for
-                clients in Colombia using the Scrum methodology with React,
-                React Native, and Next.
+                Nearly 2 years of experience working on web applications and
+                mobile apps remotely using the scrum methodology with ReactJS,
+                React Native, Next.js and Typescript.
                 <br />
-                During this time, I have honed my skills in Agile development,
+                During this time, I have honed my skills in agile development,
                 effective communication, and problem-solving to deliver
                 high-quality projects on time.
               </p>
-            </div>
+            </aside>
 
             <div className={`${classes.hero__container}`}>
               <ServicesItem title="Web Development" icon="ri-computer-line" />
               <ServicesItem title="App Development" icon="ri-apps-line" />
             </div>
-            <div>
-              <i className="ri-javascript-line"></i>
-            </div>
           </Col>
 
           <Col lg="6" md="6">
-            <div className={`${classes.hero__img} text-end`}>
+            <aside className={`${classes.hero__img} text-end`}>
               <Image
                 alt="hero-image"
                 src={heroImg}
@@ -52,7 +70,7 @@ const Hero = () => {
                 placeholder="blur"
               />
               <h5 className="mt-3 mb-3">Telecommunication engineer</h5>
-            </div>
+            </aside>
           </Col>
         </Row>
       </Container>

@@ -44,20 +44,20 @@
 
 .nav__right p {
   color: #0092cc;
-  margin-left: 20px;
   position: relative;
 }
+
 .nav__right i {
   color: #b2becd;
+  font-size: 2rem;
 }
 
 .nav__right p::before {
   content: "";
   position: absolute;
-  top: 25%;
   left: -20px;
   width: 1px;
-  height: 14px;
+  height: 36px;
   background: #b2becd;
   color: #b2becd;
 }
@@ -74,7 +74,7 @@
 }
 
 .mobile__menu i {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: #fff;
 
   cursor: pointer;
@@ -83,8 +83,6 @@
 .mobile__menu {
   display: none;
 }
-
-/* ========== make it responsive ========= */
 
 @media only screen and (max-width: 992px) {
   .navigation {

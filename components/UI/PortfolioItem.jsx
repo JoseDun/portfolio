@@ -6,7 +6,7 @@ import classes from "../../styles/portfolio-item.module.css";
 
 const PortfolioItem = ({ title, img, liveUrl, keyword }) => {
   return (
-    <div className={`${classes.portfolio__item}`}>
+    <article className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
         <h6>{title}</h6>
 
@@ -33,11 +33,11 @@ const PortfolioItem = ({ title, img, liveUrl, keyword }) => {
       <div className={`${classes.portfolio__live} bg-transparent`}>
         <button className="primary__btn">
           <Link href={liveUrl}>
-            <a target="_blank">Go</a>
+            <a target="_blank">Go to github</a>
           </Link>
         </button>
       </div>
-    </div>
+    </article>
   );
 };
 

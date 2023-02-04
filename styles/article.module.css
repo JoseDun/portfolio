@@ -1,11 +1,8 @@
-
-
 .timeline_item {
     position: relative;
     padding-left: 3rem;
     border-left: 0.1rem solid #0092cc;
 }
-
 
 .tl_duration {
     padding: 0.2rem 0.6rem;
