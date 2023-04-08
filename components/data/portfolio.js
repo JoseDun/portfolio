@@ -24,6 +24,14 @@ export const portfolio = [
     keyword: ["Next.js", "Responsive Design"],
     liveUrl: "https://github.com/JoseDun/landing-page",
   },
+  {
+    id: "04",
+    title: "Ecommerce vanilla",
+    img: "/images/ecommerce-vanilla.jpg",
+    category: "Web",
+    keyword: ["JavaScript vanilla", "Responsive Design"],
+    liveUrl: "https://github.com/JoseDun/ecommerce-vanilla",
+  },
 ];
 
 export const getPortfolioData = () => {
