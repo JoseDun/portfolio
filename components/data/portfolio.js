@@ -26,7 +26,7 @@ export const portfolio = [
   },
   {
     id: "04",
-    title: "Ecommerce vanilla",
+    title: "Ecommerce Vanilla",
     img: "/images/ecommerce-vanilla.jpg",
     category: "Web",
     keyword: ["JavaScript vanilla", "Responsive Design"],
