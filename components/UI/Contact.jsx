@@ -29,7 +29,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Montevideo - Uruguay</p>
+                <p>Venezuela</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
@@ -41,7 +41,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+598 94 143 080 | +58 412 45 27 328</p>
+                <p>+58 412 45 27 328</p>
               </li>
             </ul>
 

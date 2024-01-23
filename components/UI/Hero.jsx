@@ -40,12 +40,10 @@ const Hero = () => {
               </div>
 
               <h1 className="mt-3 mb-3">I&apos;m José Dun</h1>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h5 className="mb-4">Full-Stack Developer</h5>
 
               <p>
-                Nearly 2 years of experience working on web applications and
-                mobile apps remotely using the scrum methodology with ReactJS,
-                React Native, Next.js and Typescript.
+                Nearly 3 years of experience working on web applications remotely using the agile methodology with JavaScript, React.js, Next.js, Node.js, Express.js, TypeScript and React Native.
                 <br />
                 During this time, I have honed my skills in agile development,
                 effective communication, and problem-solving to deliver
@@ -68,8 +66,9 @@ const Hero = () => {
                 height="400"
                 priority={true}
                 placeholder="blur"
-              />
-              <h5 className="mt-3 mb-3">Telecommunication engineer</h5>
+              >
+                {/* <h5 className="mt-3 mb-3">Telecommunication engineer</h5> */}
+              </Image>
             </aside>
           </Col>
         </Row>

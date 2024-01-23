@@ -15,7 +15,7 @@ const Home = (data) => {
         <title>José Dun | Portfolio</title>
         <meta
           name="description"
-          content="Portfolio de José Dun frontend developer e ingeniero de telecomunicaciones."
+          content="Portfolio de José Dun full-stack developer e ingeniero de telecomunicaciones."
         />
       </Head>
       <Hero />

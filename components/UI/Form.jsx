@@ -45,7 +45,7 @@ const Form = () => {
       <div className={`${classes.form__group}`}>
         <input
           type="email"
-          placeholder="Email Address"
+          placeholder="You Email Address"
           required
           name="user_email"
         />
