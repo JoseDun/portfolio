@@ -9,9 +9,9 @@ import classes from "../../styles/about.module.css";
 const About = () => {
   return (
     <section id="about">
-      <Container>
+      <Container className={`${classes.about__container}`} >
         <Row>
-          <Col lg="6" className={`${classes.about__content}`}>
+          <Col lg="6" className={`${classes.about__content}`} >
             <aside>
               <SectionSubtitle subtitle="About me" />
               {/* <h3 className="mt-4">Experiences,</h3>

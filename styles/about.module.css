@@ -4,6 +4,7 @@
   gap: 2rem 2rem;
   padding-bottom: 3rem;
 }
+
 .about__icon i {
   color: #0092cc;
 }
@@ -23,15 +24,29 @@
   width: 200px !important;
 }
 
+.about__content {
+  position: sticky;
+  top: calc(50vh - 120px);
+  height: fit-content;
+}
+
+.about__container {
+  position: relative
+}
+
 @media only screen and (max-width: 992px) {
   .about__img__gallery {
     justify-content: center !important;
     margin-top: 50px;
   }
 
-  .about__content h3 {
-    font-size: 1.3rem;
+  .about__content {
+    position: static;
   }
+
+  /*   .about__content h3 {
+    font-size: 1.3rem;
+  } */
 
   .timeline {
     margin-top: 2rem;
