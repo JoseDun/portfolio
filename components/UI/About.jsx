@@ -38,7 +38,7 @@ const About = () => {
                     <span className={`${classes.about__icon}`}>
                       <i className="ri-checkbox-circle-line"></i>
                     </span>
-                    Search A Lot
+                    Search a Lot
                   </h6>
                 </div>
 
