@@ -14,15 +14,15 @@ const About = () => {
           <Col lg="6" className={`${classes.about__content}`}>
             <aside>
               <SectionSubtitle subtitle="About me" />
-              <h3 className="mt-4">Experiences,</h3>
-              <h3 className="mb-4">and a little more about me.</h3>
+              {/* <h3 className="mt-4">Experiences,</h3>
+              <h3 className="mb-4">and a little more about me.</h3> */}
               <p>
-                I&apos;m Jose Dun, I&apos;m 28 years old. <br /> Nearly 2 years
-                of experience as a frontend developer.
-                <br /> I&apos;ve been interested in technology since my
+                {/* I&apos;m José Dun, I&apos;m 29 years old. <br /> Nearly 3 years
+                of experience as a frontend developer. */}
+                I&apos;ve been interested in technology since my
                 childhood and I studied telecommunications engineering but my
                 passion for programming grew over time, leading me to transition
-                to software development.
+                to software development after graduating.
               </p>
 
               <div className="d-flex align-items-center gap-5">
@@ -63,6 +63,19 @@ const About = () => {
 
           <Col>
             <aside className={`${classes.timeline}`}>
+              <Article
+                text={`
+                1. A Back Office was developed where the sambilonline.com store is managed.
+                2. Creating API REST in node using express.
+                3. Integration with backend through API REST.
+                4. Implementation of new features.
+                5. Work with SCRUM methodology.
+                6. Use of libraries such as: express, redux, MUI, axios, i18next, react router`}
+                company="LogosCorp"
+                initialYear="April. 2023"
+                endYear="Act."
+                title="Full-Stack Developer"
+              />
               <Article
                 text={`Development of a new fintech mobile application in react native.
                 1. Implementation of new features.

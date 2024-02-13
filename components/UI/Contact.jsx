@@ -14,7 +14,7 @@ const Contact = () => {
         <Row>
           <Col lg="6" md="6">
             <SectionSubtitle subtitle="Contact me" />
-            <h3 className="mt-4 mb-4">Contact with me</h3>
+           {/*  <h3 className="mt-4 mb-4">Contact with me</h3> */}
             <p>
               Get in touch with me to discuss your job opening and how my skills
               and experience align with your company&apos;s needs. I am excited

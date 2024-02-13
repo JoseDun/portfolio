@@ -51,10 +51,10 @@ const Hero = () => {
               </p>
             </aside>
 
-            <div className={`${classes.hero__container}`}>
+{/*             <div className={`${classes.hero__container}`}>
               <ServicesItem title="Web Development" icon="ri-computer-line" />
               <ServicesItem title="App Development" icon="ri-apps-line" />
-            </div>
+            </div> */}
           </Col>
 
           <Col lg="6" md="6">
@@ -67,8 +67,8 @@ const Hero = () => {
                 priority={true}
                 placeholder="blur"
               >
-                {/* <h5 className="mt-3 mb-3">Telecommunication engineer</h5> */}
               </Image>
+              {<h5 className="mt-3 mb-3">Telecommunication engineer</h5>}
             </aside>
           </Col>
         </Row>
