@@ -13,10 +13,13 @@ const Home = (data) => {
     <>
       <Head>
         <title>José Dun | Portfolio</title>
-        <meta
-          name="description"
-          content="Portfolio de José Dun full-stack developer e ingeniero de telecomunicaciones."
-        />
+        <meta name="description" content="Portfolio de José Dun full-stack developer e ingeniero de telecomunicaciones." />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="José Dun | Portfolio" key="ogtitle" />
+        <meta property="og:description" content="Portfolio de José Dun full-stack developer e ingeniero de telecomunicaciones." key="ogdesc" />
+        {/*     <meta property="og:image" content="URL de tu imagen" key="ogimage" /> */}
+        <meta property="og:url" content="www.josedun.online" key="ogurl" />
       </Head>
       <Hero />
       <Portfolio {...data} />
