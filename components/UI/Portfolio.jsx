@@ -48,14 +48,14 @@ const Portfolio = ({ dataPortfolio }) => {
               >
                 Web Development
               </button>
-              <button
+{/*               <button
                 className={` ${
                   filter === "Mobile App" ? active : ""
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Mobile App")}
               >
                 App Development
-              </button>
+              </button> */}
             </div>
           </Col>
 

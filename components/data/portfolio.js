@@ -1,16 +1,16 @@
 export const portfolio = [
   {
     id: "01",
-    title: "Wallet app",
+    title: "Easy Wallet App",
     img: "/images/app.jpg",
-    category: "Mobile App",
+    category: "Web",
     keyword: ["React Native", "Expo", "Tailwind CSS", "React Query", "Axios"],
     liveUrl: "https://github.com/JoseDun/app-wallet",
   },
 
   {
     id: "02",
-    title: "Back office",
+    title: "Back Office Easy Wallet",
     img: "/images/wallet.jpeg",
     category: "Web",
     keyword: ["React JS", "React Query", "Axios", "Bootstrap", "Mui"],
@@ -18,7 +18,7 @@ export const portfolio = [
   },
   {
     id: "03",
-    title: "Landing page",
+    title: "Landing Page Easy Wallet",
     img: "/images/landing.webp",
     category: "Web",
     keyword: ["Next.js", "Responsive Design"],
