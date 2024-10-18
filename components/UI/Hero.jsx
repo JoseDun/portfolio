@@ -16,34 +16,46 @@ const Hero = () => {
     <section className={`${classes.hero}`}>
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          <Col
+            lg='6'
+            md='6'
+          >
             <aside className={`${classes.hero__content}`}>
               <div>
-                <SectionSubtitle subtitle="Welcome" />
+                <SectionSubtitle subtitle='Welcome' />
                 <div className={`${classesContact.social__links}`}>
                   <div className={`${classesContact.contact_icon}`}>
-                    <Link href="https://github.com/JoseDun">
-                      <a target="_blank" aria-label="link to github">
-                        <i className="ri-github-line" />
+                    <Link href='https://github.com/JoseDun'>
+                      <a
+                        target='_blank'
+                        aria-label='link to github'
+                      >
+                        <i className='ri-github-line' />
                       </a>
                     </Link>
                   </div>
 
                   <div className={`${classesContact.contact_icon}`}>
-                    <Link href="https://www.linkedin.com/in/josedunsh/">
-                      <a target="_blank" aria-label="link to linkedin">
-                        <i className="ri-linkedin-line" />
+                    <Link href='https://www.linkedin.com/in/josedunsh/'>
+                      <a
+                        target='_blank'
+                        aria-label='link to linkedin'
+                      >
+                        <i className='ri-linkedin-line' />
                       </a>
                     </Link>
                   </div>
                 </div>
               </div>
 
-              <h1 className="mt-3 mb-3">I&apos;m José Dun</h1>
-              <h5 className="mb-4">Full-Stack Developer</h5>
+              <h1 className='mt-3 mb-3'>I&apos;m José Dun</h1>
+              <h5 className='mb-4'>Full-Stack Developer</h5>
 
               <p>
-                Nearly 3 years of experience working on web applications remotely using the agile methodology with JavaScript, React.js, Next.js, Node.js, Express.js, TypeScript and React Native.
+                +3 years of experience working on web applications and mobile
+                apps remotely using the Scrum methodology with JavaScript,
+                React.js, Next.js, Node.js, Express.js, TypeScript, React Native,
+                PHP and SQL.
                 <br />
                 During this time, I have honed my skills in agile development,
                 effective communication, and problem-solving to deliver
@@ -51,24 +63,26 @@ const Hero = () => {
               </p>
             </aside>
 
-{/*             <div className={`${classes.hero__container}`}>
+            {/*             <div className={`${classes.hero__container}`}>
               <ServicesItem title="Web Development" icon="ri-computer-line" />
               <ServicesItem title="App Development" icon="ri-apps-line" />
             </div> */}
           </Col>
 
-          <Col lg="6" md="6">
+          <Col
+            lg='6'
+            md='6'
+          >
             <aside className={`${classes.hero__img} text-end`}>
               <Image
-                alt="hero-image"
+                alt='hero-image'
                 src={heroImg}
-                width="400"
-                height="400"
+                width='400'
+                height='400'
                 priority={true}
-                placeholder="blur"
-              >
-              </Image>
-              {<h5 className="mt-3 mb-3">Telecommunication engineer</h5>}
+                placeholder='blur'
+              ></Image>
+              {<h5 className='mt-3 mb-3'>Telecommunication Engineer</h5>}
             </aside>
           </Col>
         </Row>
