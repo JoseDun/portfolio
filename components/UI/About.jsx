@@ -65,12 +65,23 @@ const About = () => {
             <aside className={`${classes.timeline}`}>
               <Article
                 text={`
-                1. A Back Office was developed where the sambilonline.com store is managed.
-                2. Creating API REST in node using express.
-                3. Integration with backend through API REST.
-                4. Implementation of new features.
-                5. Work with SCRUM methodology.
-                6. Use of libraries such as: express, redux, MUI, axios, i18next, react router`}
+                 RESPONSIBILITIES
+                  ● Development of a registration system for borealcm.com which enables customers to access certified investment brokers and advisors.
+
+                  1. Implementation of new features in zoho widgets using Next.js with TypeScript.
+                  2. Integration with zoho crm through API REST.
+                  3. Backend development using PHP and Node.js with Express.js.
+
+                  ● Development of the Back Office for sambilonline.com management.
+
+                  1. Integration with zoho crm through API REST.
+                  2. Use of libraries such as: react query, express, redux, MUI, axios, i18next, react router.
+
+                  KEY ACCOMPLISHMENTS
+
+                  ● Successful launch registration system for borealcm.com
+                  ● Successful launch of the back office platform and release of the application's initial version sambilonline.com
+                  `}
                 company="LogosCorp"
                 initialYear="April. 2023"
                 endYear="Act."
