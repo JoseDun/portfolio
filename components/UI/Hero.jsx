@@ -54,8 +54,8 @@ const Hero = () => {
               <p>
                 +3 years of experience working on web applications and mobile
                 apps remotely using the Scrum methodology with JavaScript,
-                React.js, Next.js, Node.js, Express.js, TypeScript, React Native,
-                PHP and SQL.
+                React.js, Next.js, Node.js, Express.js, TypeScript, React
+                Native, PHP, SQL and Docker.
                 <br />
                 During this time, I have honed my skills in agile development,
                 effective communication, and problem-solving to deliver
