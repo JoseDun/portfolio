@@ -22,7 +22,6 @@ const Home = (data) => {
         <meta property="og:url" content="www.josedun.online" key="ogurl" />
       </Head>
       <Hero />
-      <Portfolio {...data} />
       <About />
       <Certifications {...data} />
       <Contact />
@@ -31,9 +30,9 @@ const Home = (data) => {
 };
 export async function getStaticProps() {
   const data = getCertsData();
-  const dataPortfolio = getPortfolioData();
+  //const dataPortfolio = getPortfolioData();
 
-  return { props: { data, dataPortfolio } };
+  return { props: { data } };
 }
 
 export default Home;

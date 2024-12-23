@@ -12,10 +12,10 @@ const NAV__LINK = [
     path: "/",
     display: "Home",
   },
-  {
-    path: "#portfolio",
-    display: "Portfolio",
-  },
+  /*   {
+      path: "#portfolio",
+      display: "Portfolio",
+    }, */
   {
     path: "#about",
     display: "About",
@@ -32,7 +32,6 @@ const NAV__LINK = [
 
 const Header = () => {
   const headerRef = useRef(null);
-
   const menuRef = useRef(null);
 
   const headerFunc = () => {
